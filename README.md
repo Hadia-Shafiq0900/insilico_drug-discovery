@@ -1,6 +1,5 @@
 # Integrated In Silico Drug Discovery Pipeline for EGFR Inhibitors in NSCLC
 
-## Pharmacoinformatics (BI-424) – End Semester Project
 
 This project presents a complete **in silico drug discovery workflow** targeting the **Epidermal Growth Factor Receptor (EGFR)** for the treatment of **Non-Small Cell Lung Cancer (NSCLC)**.
 
@@ -25,7 +24,7 @@ The objective of this project was to design and implement a reproducible computa
 # Disease & Target Selection
 
 ## Disease
-**Non-Small Cell Lung Cancer (NSCLC)**
+ **Lung Cancer **
 
 ## Molecular Target
 **Epidermal Growth Factor Receptor (EGFR)**  
@@ -44,17 +43,7 @@ These mutations promote:
 - Survival
 - Reduced apoptosis
 
-EGFR is considered highly druggable because:
 
-- It contains a well-defined ATP-binding pocket
-- Multiple FDA-approved inhibitors already exist
-- High-quality crystal structures are available
-
-Approved EGFR inhibitors include:
-
-- Gefitinib
-- Erlotinib
-- Osimertinib
 
 ---
 
@@ -166,6 +155,7 @@ A total of **208 physicochemical descriptors** were calculated using RDKit.
 - H-bond Donors/Acceptors
 - Rotatable Bonds
 - Ring Counts
+ <img width="975" height="321" alt="image" src="https://github.com/user-attachments/assets/79057891-2eb6-418b-83df-2c4782c12010" />
 
 ---
 
@@ -219,13 +209,15 @@ Models were evaluated using:
 
 ## Predicted vs Observed Plot
 
-![Predicted vs Observed](docs/images/predicted_vs_observed.png)
+<img width="975" height="583" alt="image" src="https://github.com/user-attachments/assets/19776851-4e27-49e4-b2e9-a2d08293c990" />
+
 
 ---
 
 ## Residual Distribution Plot
 
-![Residual Plot](docs/images/residual_distribution.png)
+<img width="713" height="841" alt="image" src="https://github.com/user-attachments/assets/3b0f0be5-c571-43d4-b8c1-8965eb79cbd3" />
+
 
 ---
 
@@ -260,6 +252,7 @@ This validates the dataset because quinazoline is also present in:
 
 - Erlotinib
 - Gefitinib
+<img width="975" height="363" alt="image" src="https://github.com/user-attachments/assets/4f3a7f3a-8005-4a7f-861d-06b8337b4762" />
 
 ---
 
@@ -279,7 +272,7 @@ This validates the dataset because quinazoline is also present in:
 
 PCA based on physicochemical descriptors revealed clustering of highly active compounds.
 
-![PCA Plot](docs/images/pca_plot.png)
+<img width="975" height="388" alt="image" src="https://github.com/user-attachments/assets/2005ae04-09be-4395-997d-a3ac86a87aa5" />
 
 ---
 
@@ -287,7 +280,7 @@ PCA based on physicochemical descriptors revealed clustering of highly active co
 
 t-SNE based on Morgan fingerprints showed clear structural clustering.
 
-![tSNE Plot](docs/images/tsne_plot.png)
+<img width="975" height="388" alt="image" src="https://github.com/user-attachments/assets/d0b4adb7-6e41-47ff-b9e4-be2ddcdb1840" />
 
 ---
 
@@ -483,14 +476,18 @@ TAK-285 was eliminated due to:
 # ADMET Visualization
 
 ## ADMET Heatmap
+<img width="975" height="477" alt="image" src="https://github.com/user-attachments/assets/cedb7e72-bdf5-436f-a007-85492862b9d1" />
 
-![ADMET Heatmap](docs/images/admet_heatmap.png)
 
 ---
 
 # Step 9 — Multi-Parameter Lead Prioritization
+<img width="975" height="588" alt="image" src="https://github.com/user-attachments/assets/f5cd8a3b-b75a-47dc-90aa-805f6bc4f15b" />
 
 ## Composite Lead Score
+
+<img width="975" height="481" alt="image" src="https://github.com/user-attachments/assets/dd82f405-7dd5-4e6e-9be0-b498af0fd122" />
+
 
 ```text
 Lead Score =
@@ -623,8 +620,9 @@ The recovery of Osimertinib — a clinically approved EGFR inhibitor — validat
 # Authors
 
 - Hadia Shafiq
-- Group Members
-
+- diya zeejah
+- muhammad rizwan
+- dua qaiser
 ---
 
 # References
